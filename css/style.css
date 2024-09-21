@@ -1,0 +1,499 @@
+.bannerSuperior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 98.5vw;
+}
+.bannerSuperior h1 {
+  position: relative;
+  left: 1vw;
+  font-family: "Yellowtail", cursive !important;
+  color: #19304F;
+  opacity: 60%;
+}
+.bannerSuperior ul {
+  justify-content: end;
+}
+
+.imgHome {
+  max-height: 94vh;
+  width: 98.7vw;
+  max-width: 100vw;
+}
+
+.flechaHome {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.aboutUs {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 15vh;
+}
+
+.aboutUs h3, p {
+  text-align: center;
+}
+
+.sectionCursos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.cursosHome {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 0.01rem;
+  border-color: #19304F;
+}
+
+.cursosTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.1rem;
+  border-right-style: solid;
+  border-right-color: #19304F;
+}
+
+.cursosCardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2vw;
+}
+
+.cursosCardsContainer .card {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cursoAnimadoHome {
+  height: 14rem;
+  width: 22rem;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: #19304F;
+  margin-top: 2rem !important;
+}
+
+.cursoAnimadoHome figcaption .btn {
+  background-color: rgb(29, 36, 66) !important;
+  font-family: "Alex Brush", cursive;
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.cursoAnimadoHome img {
+  margin-top: 0;
+  height: 100%;
+}
+
+.cursoHome {
+  max-height: 20rem;
+  width: rem;
+}
+
+.card-img-top {
+  margin-top: 1rem;
+}
+
+.botonCards {
+  background-color: #19304F !important;
+}
+
+body {
+  max-width: 99vw;
+}
+
+.divTitulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.partiturasTitulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 100;
+}
+
+.partitura {
+  position: relative;
+  left: 15%;
+  max-width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  margin-bottom: 3vh;
+}
+.partitura a {
+  text-decoration: none;
+}
+.partitura p {
+  position: relative;
+  right: 13vw;
+  color: ghostwhite;
+}
+.partitura h3 {
+  position: relative;
+  left: 1vw;
+}
+
+.lineaPartitura {
+  width: 50%;
+  border-right: 0.1vw;
+  border-right-style: solid;
+  border-right-color: white;
+}
+
+.loginTitulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.divFormLogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.formLogin {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formLogin label {
+  margin-top: 1rem;
+}
+.formLogin label p {
+  text-align: start;
+}
+
+.bannerInferior {
+  padding-top: 30px;
+  width: 98.5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divLinksUtiles {
+  text-align: center;
+}
+
+.linksUtiles {
+  padding-left: 0px;
+}
+.linksUtiles li {
+  list-style-type: none;
+}
+
+.bannerInferior {
+  border-top-style: solid;
+  border-top-color: grey;
+}
+
+.bannerInferior a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.tituloBannerInferior {
+  text-align: center;
+}
+
+.redes li {
+  list-style: none;
+}
+
+.bannerIcon {
+  height: 2vw;
+}
+
+.cursosTitulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.listaCursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.curso {
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: #39567c;
+  width: 70%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.lineaCurso {
+  display: flex;
+  flex-direction: column;
+}
+
+.tituloCurso {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.descripcionCurso {
+  width: 90%;
+  margin-left: 3rem;
+  text-align: start;
+}
+
+.botonCompraCurso {
+  width: 60%;
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+  border-color: rgb(72, 72, 141);
+  background-color: #39567c;
+  color: rgb(171, 171, 224);
+  font-weight: 100;
+}
+
+.imgCardCursos {
+  max-width: 20vw;
+  object-fit: cover;
+}
+
+.cancionerosTitulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.listaCancioneros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cancionero {
+  width: 35vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-bottom: 10vh;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: #39567c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloCancionero {
+  margin-top: 1rem;
+}
+
+.descripcionCancionero {
+  max-width: 70%;
+}
+
+.botonCompraCancionero {
+  border-color: rgb(72, 72, 141);
+  background-color: #39567c;
+  color: rgb(171, 171, 224);
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+@media (hover: hover) {
+  /* nav */
+  .aHeader:hover {
+    color: #39567c;
+    opacity: 80%;
+    text-decoration: none;
+  }
+  .bannerSuperior a:hover {
+    opacity: 50%;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 300px) {
+  /* cursos */
+  .curso {
+    flex-direction: column;
+    font-size: 60%;
+  }
+  .descripcionCurso {
+    margin-left: 1rem;
+  }
+  .tituloCurso {
+    margin-left: 1rem;
+    font-size: 130%;
+  }
+  .botonCompraCurso {
+    margin-left: 1rem;
+  }
+  .curso img {
+    height: 1px;
+    margin-left: 200rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* home */
+  .flechaHome img {
+    max-width: 5%;
+  }
+  .cursosHome {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cursosTexto {
+    margin-top: 1rem;
+    text-align: center;
+    border-right: none;
+    border-bottom-style: solid;
+    border-bottom-color: #39567c;
+  }
+  .cursosCardsContainer .card {
+    margin-top: 1rem;
+    min-width: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  /* cursos */
+  .curso {
+    flex-direction: column;
+    font-size: 60%;
+  }
+  .tituloCurso {
+    margin-left: 1rem !important;
+  }
+  .descripcionCurso {
+    width: 70%;
+    margin-left: 1rem !important;
+  }
+  .botonCompraCurso {
+    margin-left: 1rem;
+  }
+  .curso img {
+    height: 1px;
+    margin-left: 200rem;
+  }
+  /* partituras */
+  .partitura {
+    font-size: 50%;
+  }
+  .partitura h3 {
+    font-size: 130%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .partitura p {
+    margin-top: 1rem;
+  }
+  /* cancioneros */
+  .listaCancioneros {
+    flex-direction: column;
+  }
+  .cancionero {
+    width: 60vw;
+  }
+  .cancionero h3 {
+    font-size: 120%;
+  }
+  .cancionero p {
+    font-size: 60%;
+  }
+  .botonCompraCancionero {
+    font-size: 50%;
+  }
+  /* login */
+  .loginTitulo {
+    text-align: center;
+  }
+  .formLogin {
+    width: 90%;
+  }
+  .formLogin button {
+    margin-top: 1rem;
+  }
+  .divFormLogin {
+    margin-bottom: 2rem;
+  }
+  /* footer */
+  .bannerInferior {
+    flex-direction: column;
+  }
+  .tituloBannerInferior {
+    margin-bottom: 2rem;
+  }
+  .redes {
+    width: 100vw;
+  }
+  .redes ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+  }
+  .redes a {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+  }
+  .redes li {
+    width: 100%;
+  }
+  .bannerIcon {
+    height: 5vw;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* home */
+  .cursosCardsContainer picture {
+    display: none;
+  }
+  .cursosCardsContainer .card {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* cursos */
+  .curso {
+    flex-direction: column;
+    font-size: 60%;
+  }
+  .descripcionCurso {
+    width: 80%;
+  }
+  .curso img {
+    height: 1px;
+    margin-left: 200rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

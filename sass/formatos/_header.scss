@@ -1,0 +1,22 @@
+.bannerSuperior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    max-width: 98.5vw;
+
+    h1{
+        position: relative;
+        left: 1vw;
+        font-family: "Yellowtail", cursive !important;
+        color: #19304F;
+        opacity: 60%;
+        
+    }
+
+    ul{
+        justify-content: end;
+    }
+
+}
+

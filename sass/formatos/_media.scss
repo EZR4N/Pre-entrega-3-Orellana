@@ -1,0 +1,221 @@
+@media (hover:hover){
+    /* nav */
+    .aHeader:hover{
+        color: #39567c;
+        opacity: 80%;
+        text-decoration: none;
+    }
+
+    .bannerSuperior a:hover{
+        opacity: 50%;
+        text-decoration: none;
+    }    
+}
+
+@media only screen and (max-width: 300px){
+    /* cursos */
+
+    .curso{
+        flex-direction: column;
+        font-size: 60%;
+    }
+
+    .descripcionCurso {
+        margin-left: 1rem;
+    }
+
+    .tituloCurso{
+        margin-left: 1rem;
+        font-size: 130%;
+    }
+
+    .botonCompraCurso{
+        margin-left: 1rem;
+    }
+
+    .curso img{
+        height: 1px;
+        margin-left: 200rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* home */
+    .flechaHome img{
+        max-width: 5%;
+    }
+
+    .cursosHome{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cursosTexto{
+        margin-top: 1rem;
+        text-align: center;
+        border-right: none;
+        border-bottom-style: solid ;
+        border-bottom-color: #39567c;
+    }
+
+    .cursosCardsContainer .card{
+        margin-top: 1rem;
+        min-width: 110%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    /* cursos */
+
+    .curso{
+        flex-direction: column;
+        font-size: 60%;
+    }
+
+    .tituloCurso{
+        margin-left: 1rem !important;
+    }
+
+    .descripcionCurso {
+        width:70%;
+        margin-left: 1rem !important;
+    }
+
+    .botonCompraCurso{
+        margin-left: 1rem;
+    }
+
+    .curso img{
+        height: 1px;
+        margin-left: 200rem;
+    }
+
+
+    /* partituras */
+
+    .partitura{
+        font-size: 50%;
+    }
+
+    .partitura h3{
+        font-size: 130%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .partitura p{
+        margin-top: 1rem;
+    }
+
+    /* cancioneros */
+
+    .listaCancioneros{
+        flex-direction: column;
+    }
+
+    .cancionero{
+        width: 60vw;
+    }
+
+    .cancionero h3{
+        font-size: 120%;
+    }
+
+    .cancionero  p{
+        font-size: 60%;
+    }
+
+    .botonCompraCancionero{
+        font-size: 50%;
+    }
+
+    /* login */
+
+    .loginTitulo{
+        text-align: center;
+    }
+
+    .formLogin{
+        width: 90%;
+    }
+
+    .formLogin button{
+        margin-top: 1rem;
+    }
+
+    .divFormLogin{
+        margin-bottom: 2rem;
+    }
+
+    /* footer */
+    .bannerInferior{
+        flex-direction: column;
+    }
+
+    .tituloBannerInferior{
+        margin-bottom: 2rem;
+    }
+
+    .redes{
+        width: 100vw;
+    }
+
+    .redes ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0px;
+    }
+
+    .redes a{
+        width: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .redes li{
+        width: 100%;
+    }
+
+    .bannerIcon{
+        height: 5vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px){
+
+    /* home */
+    .cursosCardsContainer picture{
+        display: none;
+    }
+
+    .cursosCardsContainer .card{
+        display: block !important;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1000px){
+    /* cursos */
+
+    .curso{
+        flex-direction: column;
+        font-size: 60%;
+    }
+
+    .descripcionCurso {
+        width:80%;
+    }
+
+    .curso img{
+        height: 1px;
+        margin-left: 200rem;
+    }
+
+}

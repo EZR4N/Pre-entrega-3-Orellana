@@ -1,0 +1,47 @@
+.divTitulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.partiturasTitulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+
+.partitura{
+    position: relative;
+    left: 15%;
+    max-width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin-bottom: 3vh; 
+    
+    a{
+    text-decoration: none;
+    }
+
+    p{
+    position: relative;
+    right: 13vw;
+    color: ghostwhite;
+    
+    }
+
+    h3{
+    position: relative;
+    left: 1vw;
+    }
+}
+
+.lineaPartitura{
+    width: 50%;
+    border-right: 0.1vw;
+    border-right-style: solid;
+    border-right-color: white;
+}

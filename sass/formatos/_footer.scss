@@ -1,0 +1,48 @@
+.bannerInferior{
+    padding-top: 30px;
+    width: 98.5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.divLinksUtiles{
+    text-align: center;
+    
+}
+
+.linksUtiles {    
+    padding-left: 0px;
+    li{
+        list-style-type: none;
+    }
+    
+}
+
+
+.bannerInferior{
+    border-top-style: solid;
+    border-top-color: grey;
+}
+
+.bannerInferior a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.tituloBannerInferior{
+    text-align: center;
+    
+}
+
+.redes{
+    li{
+    list-style: none;
+}
+}
+
+.bannerIcon{
+    height: 2vw;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="bannerSuperior container-fluid">
+            <a class="navbar-brand" href="../index.html"><h1>MUZIK</h1></a>
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="linksHeader collapse navbar-collapse" id="navbarNav">
+              <ul class="linksHeader navbar-nav col-12">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="partituras.html">Partituras</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link" href="cancioneros.html">Cancioneros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <main>
+        <div>
+            <h2 class="loginTitulo"> Iniciar Sesión</h2>
+        </div>
+
+        <div class="divFormLogin">
+            <form class="formLogin" action="post">
+                <label for="Email" class="labelEmail"> Email: </label>
+                <input name="Email" class="inputEmail" type="text" placeholder="ingrese su email"> 
+                <label for="contrasena" class="labelContrasena"> Contraseña: </label>
+                <input name="contrasena" class="inputContrasena" type="password" placeholder="ingrese su contraseña">
+                <p>no tienes una cuenta? <a href="">Regístrate</a></p>
+
+                <a href="">Olvidaste tu contraseña?</a>
+                <button type="submit"> Iniciar sesión</button>
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <nav class="bannerInferior">
+            <div class="tituloBannerInferior">
+                <h2 >MUZIK</h2>
+            </div>
+            <div class="divLinksUtiles">
+                <h3> Links útiles </h3>
+                <ul class="linksUtiles">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Partituras</a></li>
+                    <li><a href="">Cancioneros</a></li>
+                    <li><a href="">Iniciar sesión</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
+            </div>
+            <div class="redes">
+                <ul>
+                    <a href=""><li><img class="bannerIcon" src="../images/icons8-instagram-48.png" alt=""> </li></a>
+                    <a href=""><li><img class="bannerIcon" src="../images/icons8-x-50.png" alt=""> </li></a>
+                    <a href=""><li><img class="bannerIcon" src="../images/icons8-facebook-nuevo-50.png" alt=""> </li></a>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
